@@ -20,4 +20,7 @@ install:
   - rustc -vV
   - cargo -vV
 
-build: true
+build: false
+
+test_script:
+  - cargo test --verbose
